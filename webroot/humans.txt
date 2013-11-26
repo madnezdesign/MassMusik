@@ -1,0 +1,1 @@
+Me is a PHP-boilerplate/framework for small websites. Me was built by Madeleine Lindberg part of learning web programming and published in October 2013.

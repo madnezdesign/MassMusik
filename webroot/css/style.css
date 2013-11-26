@@ -1,0 +1,156 @@
+html {
+overflow-y: scroll;
+}
+
+body {
+background:#000000;
+  font-family: arial, sans-serif;
+  background-image:url(../img/bg.png);
+  background-repeat:repeat;
+  font-size:0.85em;
+}
+ 
+
+#wrapper {
+  width: 1000px;
+  height:auto;
+  background: #FFFFFF;
+  border:2px solid #333333;
+  margin: 0 auto;
+}
+ 
+ 
+#header {
+background-image:url(../img/header.png);
+width:1000px;
+height:200px;
+margin:0 auto;
+} 
+ 
+#main {
+  min-height: 20em;
+  line-height:1.7em;
+  font-size:0.85em;
+  padding:1em;
+  overflow:auto;
+}
+
+.article {
+width:600px;
+min-height:100px;
+padding:0.5em;
+text-align:justify;
+float:left;
+}
+
+.rb {
+width:300px;
+min-height:100px;
+padding:0.7em;
+text-align:justify;
+float:right;
+margin-right:0.5em;
+font-size:0.9em;
+background-color:#CCCCCC;
+line-height:1.1em;
+box-shadow: 0px 0px 10px #000000;
+}
+
+#footer {
+border-top:2px solid #333333;
+background-color:#000000;
+min-height:50px;
+padding:1em;
+}
+ 
+.sitefooter {
+  color: #FFFFFF;
+  font-size:0.8em;
+  text-align:center;
+}
+
+#footer a {
+color:#FFFFFF;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#990000;
+text-decoration:none;
+}
+
+
+/* navigationsmenyn */
+
+/**
+ * Navbar
+ */
+#navbar {
+  font-family: arial;
+  font-weight: bold;
+  background: #000000;
+  border-bottom:2px solid #333333;
+  height:auto;
+  line-height:2em;
+  padding:0.3em;
+}
+
+#navbar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  clear:both;
+}
+
+#navbar nav ul li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+}
+
+#navbar nav ul li:first-child {
+  padding-left: 0;
+}
+
+#navbar nav ul li.selected a {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}    
+
+#navbar nav ul a {
+  padding:5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}  
+
+#navbar nav ul a:hover {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-decoration: none;
+} 
+
+h1 {
+font-size:1.6em;
+color:#333333;
+text-decoration:underline;
+}
+
+h2 {
+font-size:1.8em;
+color:#606A3C;
+border-bottom:#666666 thin solid;
+text-align:center;
+padding-bottom:0.3em;
+}
+
+a {
+color:#000033;
+text-decoration:none;
+}
+
+a:hover {
+color:#990000;
+text-decoration: overline underline;
+}
